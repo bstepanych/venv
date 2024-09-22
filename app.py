@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-# Google Docs API setup
+# Google Docs API setuping
 SCOPES = ['https://www.googleapis.com/auth/documents','https://www.googleapis.com/auth/drive']
 SERVICE_ACCOUNT_FILE = 'D:/DocTemplate/venv/forward-ace-436213-m6-de170b2f07f7.json'
 
